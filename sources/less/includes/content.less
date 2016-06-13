@@ -1,0 +1,122 @@
+.busca{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: rgba(0,0,0,0.5);
+	display: block;
+	position: relative;
+	color: #fff;
+	&:after{
+		content: "";
+		background: url('../images/bg-busca.jpg') no-repeat top center;
+		background-size: cover;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	}
+	h2{
+		font-size: 5em;
+	}
+	p{
+		font-size: 2em;
+	}
+	input{
+		background:none;
+		width: 100%;
+		margin: 15px 0;
+		padding: 20px 5px;
+		-webkit-appearance: none;
+		-moz-appearance:    none;
+		appearance:         none;
+
+		font-size: 1.5em;
+		background-color: transparent;
+		border: 0;
+		border-radius: 0;
+		border-bottom: 3px solid #fff;
+		box-shadow: none;
+		background-clip: padding-box;
+
+		&::-webkit-input-placeholder {
+		   color: #fff;
+		}
+
+		&:-moz-placeholder { /* Firefox 18- */
+		   color: #fff;  
+		}
+
+		&::-moz-placeholder {  /* Firefox 19+ */
+		   color: #fff;  
+		}
+
+		&:-ms-input-placeholder {  
+		   color: #fff;  
+		}
+	}
+}
+
+.icones{
+	padding: 20px 0; 
+	.icone-title{
+		font-size: 3em;
+		text-transform: uppercase;
+		font-weight: 900;
+		margin-top: 20px;
+	}
+	p{
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+}
+
+.como-funciona{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background:#f4f4f4 url('../images/detalhe.jpg') top center no-repeat;
+	h2{
+		margin-bottom: 20px;
+	}
+	.bloco-funciona{
+		margin: 20px 0;
+		span{
+			display: inline-block;
+			background: @corPrincipal;
+			border-radius: 50%;
+			font-size: 4em;
+			padding: 15px;
+			width: 80px;
+			height: 80px;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		p{
+			display: inline-block;
+			width: 80%;
+		}
+	}
+}
+
+footer{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: rgba(0,0,0,0.5);
+	display: block;
+	position: relative;
+	color: #fff;
+	&:after{
+		content: "";
+		background: url('../images/bg-footer.jpg') no-repeat bottom center;
+		background-size: 200%;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		z-index: -1;   
+	}
+	h3{
+		font-size: 3em;
+	}
+}

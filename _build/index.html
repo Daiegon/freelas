@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Meu Raddar</title>
+
+	<!-- Vendors CSS --> 
+	<link href="./sources/css/vendors.css" rel="stylesheet">
+
+	<!-- Style CSS -->
+	<link href="./sources/css/main.css" rel="stylesheet">
+
+	<!-- Android Lolipop Theme Color -->
+	<meta name="theme-color" content="#0090d6">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]--> 
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<header id="header">
+				<div class="container">
+					<div class="col-xs-12 col-sm-3 col-md-3 text-center logo">
+						<h1>LOGO</h1>
+					</div>
+					
+					<div class="col-xs-12 col-sm-9 col-md-7 col-md-offset-2 hidden-xs">
+						<nav>
+							<ul class="menu">
+								<li><a href="#">Início</a></li>
+								<li><a href="#">Baixe o App</a></li>
+								<li><a href="#">Sua Loja no Raddar</a></li>
+							</ul>
+							<!-- /.menu -->
+						</nav>
+					</div>
+					<!-- /.col-xs-12 -->
+
+					<!-- /.col-xs-12 text-center -->
+					<div class="col-xs-12 menu-btn visible-xs">
+						<span class="glyphicon glyphicon-menu-hamburger"></span> MENU
+						<select onchange="location = this.options[this.selectedIndex].value;">
+							<option value="#" selected disabled> - MENU -</option>
+							<option value="./">Início</option>
+							<option value="./">Baixe o App</option>
+							<option value="./">Sua Loja no Raddar</option>
+						</select>
+					</div>
+					<!-- /.col-xs-12 menu-btn -->
+				</div>
+				<!-- /.container -->
+			</header>
+			<!-- /#header -->
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<section class="busca">
+				<div class="container">
+					<div class="col-xs-12 col-md-5 col-md-offset-7 headline">
+						<h2>Encontre o que precisa</h2>
+						<p>O produto, as promoções e os descontos perto de você</p>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-md-4">
+						<input type="text" name="nome" placeholder="Nome do Produto">
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<input type="text" name="cidade" placeholder="Cidade">
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<input type="text" name="estado" placeholder="Estado">
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12">
+						<button class="btn btn-azul">BUSCAR</button>
+					</div>
+					<!-- /.col-xs-12 -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.busca -->
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<section class="icones">
+				<div class="container">
+					<div class="col-xs-12 col-sm-4">
+						<img src="./sources/images/ilustra-1.jpg" alt="">
+						<p class="icone-title">Prático:</p>
+						<p>Precisa de um produto agora?</p>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-sm-4">
+						<img src="./sources/images/ilustra-2.jpg" alt="">
+						<p class="icone-title">Simples:</p>
+						<p>Não gosta de comprar online? Não quer gastar com frete e esperar dias para a Entrega? Correr o risco de receber um produto diferente daquilo que imaginava?</p>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-sm-4">
+						<img src="./sources/images/ilustra-3.jpg" alt="">
+						<p class="icone-title">Útil:</p>
+						<p>MeuRaddar é uma solução simples para você poupar dinheiro.</p>
+					</div>
+					<!-- /.col-xs-12 -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.icones -->
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<section class="como-funciona">
+				<div class="container">
+					<h2>COMO FUNCIONA</h2>
+					<div class="col-xs-12 bloco-funciona">
+						<div class="col-md-6 col-lg-3 col-lg-offset-2">
+							<img src="./sources/images/ilustra-4.jpg" alt="">
+						</div>
+						<!-- /.col-md-6 -->
+						
+						<div class="col-md-6 numero">
+							<span class="icone-numero">1</span>
+							<p>No Raddar você somente digita o produto que procura.</p>
+						</div>
+						<!-- /.col-md-6 -->
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 bloco-funciona">
+						<div class="col-md-6 col-md-push-6 col-lg-3">
+							<img src="./sources/images/ilustra-5.jpg" alt="">
+						</div>
+
+						<div class="col-md-6 col-md-pull-6 col-lg-offset-3 numero">
+							<span class="icone-numero">2</span>
+							<p>Com apenas um clique você terá a lista de várias lojas com o produto que deseja ao seu redor.</p>
+						</div>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 bloco-funciona">
+						<div class="col-md-6 col-lg-3 col-lg-offset-2">
+							<img src="./sources/images/ilustra-6.jpg" alt="">
+						</div>
+
+						<div class="col-md-6 numero">
+							<span class="icone-numero">3</span>
+							<p>Faça sua escoha e saiba exatamente aonde ir, as promoções e os descontos. Tudo na loja mais próxima e sem perder tempo.</p>
+						</div>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 bloco-funciona">
+						<div class="col-md-6 col-md-push-6 col-lg-3">
+							<img src="./sources/images/ilustra-7.jpg" alt="">
+						</div>
+						
+						<div class="col-md-6 col-md-pull-6 col-lg-offset-3 numero">
+							<span class="icone-numero">4</span>
+							<p>Compre direto na loja de forma segura. As empresas cadastradas são selecionadas e de confiança.</p>
+						</div>
+					</div>
+					<!-- /.col-xs-12 -->
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- /.como-funciona -->
+		</div>
+		<!-- /.row -->
+		<div class="row">
+			<footer id="footer">
+				<div class="container">
+					<div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2">
+						<h3>Quer colocar sua loja no Raddar?</h3>
+						<button class="btn btn-azul">Saber mais</button>
+					</div>
+					<!-- /.col-xs-12 -->
+				</div>
+				<!-- /.container -->
+			</footer>
+			<!-- /#footer -->
+		</div>
+		<!-- /.row -->
+	</div>
+	<!-- /.container -->
+</body>
+</html>
