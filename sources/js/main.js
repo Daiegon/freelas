@@ -1,11 +1,16 @@
-$('.countdown').downCount({
-    date: '06/13/2016 23:59:59',
-    //offset: +10
-}, function () {
-    //alert('WOOT WOOT, done!');
-});
-
-$(document).ready(function () {
-
-
+$(function(){
+    $("#typed").typed({
+        strings: ["o que precisa", "o produto", "as promoções", "os descontos"],
+        typeSpeed: 50,
+        // time before typing starts
+        startDelay: 0,
+        // backspacing speed
+        backSpeed: 50,
+        // time before backspacing
+        backDelay: 3000,
+        // loop
+        loop: true,
+        // false = infinite
+        loopCount: false
+    });
 });

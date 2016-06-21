@@ -21,6 +21,8 @@
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]--> 
+	
+	<script src="https://use.fontawesome.com/24d7215f98.js"></script>
 
 </head>
 <body>
@@ -64,24 +66,18 @@
 		<div class="row">
 			<section class="busca">
 				<div class="container">
-					<div class="col-xs-12 col-md-5 col-md-offset-7 headline">
-						<h2>Encontre o que precisa</h2>
-						<p>O produto, as promoções e os descontos perto de você</p>
+
+					<div class="col-xs-12 col-md-8 col-md-offset-4 headline">
+						<h2>Encontre <span id="typed"></span> perto de você</h2>
+						<p>Apenas digite o produto e nós faremos o resto</p>
 					</div>
 					<!-- /.col-xs-12 -->
-					<div class="col-xs-12 col-md-4">
+					<div class="col-xs-12 col-sm-8 ">
 						<input type="text" name="nome" placeholder="Nome do Produto">
 					</div>
 					<!-- /.col-xs-12 -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<input type="text" name="cidade" placeholder="Cidade">
-					</div>
-					<!-- /.col-xs-12 -->
-					<div class="col-xs-12 col-sm-6 col-md-4">
-						<input type="text" name="estado" placeholder="Estado">
-					</div>
-					<!-- /.col-xs-12 -->
-					<div class="col-xs-12">
+
+					<div class="col-xs-12 col-sm-4">
 						<button class="btn btn-azul">BUSCAR</button>
 					</div>
 					<!-- /.col-xs-12 -->
@@ -175,7 +171,7 @@
 		</div>
 		<!-- /.row -->
 		<div class="row">
-			<footer id="footer">
+			<section class="adesao">
 				<div class="container">
 					<div class="col-xs-12 col-md-6 col-lg-4 col-lg-offset-2">
 						<h3>Quer colocar sua loja no Raddar?</h3>
@@ -184,11 +180,47 @@
 					<!-- /.col-xs-12 -->
 				</div>
 				<!-- /.container -->
+			</section>
+			<!-- /.section -->
+		</div>
+		<!-- /.row -->
+
+		<div class="row">
+			<footer id="footer">
+				<div class="container">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+						<p>&copy; Meu Raddar - 2016</p>
+					</div>
+					<!-- /.col-xs-12 -->
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						
+						<ul class="menu-footer">
+							<li>
+								<a href="https://www.facebook.com/MeuRaddar/" target="_blank" title="Facebook Raddar" class="social-icon">
+									<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Contato</a></li>
+						</ul>
+						<!-- /.menu -->
+					</div>
+					<!-- /.col-xs-12 -->
+					
+				</div>
+				<!-- /.container -->
 			</footer>
 			<!-- /#footer -->
 		</div>
 		<!-- /.row -->
+
 	</div>
 	<!-- /.container -->
+
+	<!-- Vendors Scripts -->
+	<script src="./sources/js/vendors.js"></script>
+	<!-- App Scripts -->
+	<script src="./sources/js/app.js"></script>
 </body>
 </html>

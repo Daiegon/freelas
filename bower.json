@@ -16,7 +16,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {},
+  "devDependencies": {
+    "typed.js": "^1.1.1"
+  },
   "dependencies": {
     "jquery-breakpoint-check": "^1.0.1",
     "jquery": "~2.2.0",

@@ -86,6 +86,7 @@ var args = require('yargs')
 			'./bower_components/bootstrap-css/js/bootstrap.min.js',
 			'./bower_components/jquery-breakpoint-check/js/jquery-breakpoint-check.min.js',
 			'./bower_components/downcount/jquery.downCount.js',
+			'./bower_components/typed.js/dist/typed.min.js',
 		];
 
 		return gulp.src(src)
